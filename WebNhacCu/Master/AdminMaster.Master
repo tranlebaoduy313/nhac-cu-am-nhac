@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="WebNhacCu.Master.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSSAdminMaster.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+            <div class="menu">
+                <!--Home-->
+                <div class="left">
+                    <a href="../Admin/TrangChuAD.aspx"><img src="../images/home.png" style="height:50px"/></a>
+                </div>
+                
+                <!--Menu-->
+                <div class="menu_center">
+                    <ul id="navigation">
+                        <li><a href="../Admin/TaiKhoanAD.aspx">TÀI KHOẢN</a></li>
+                        <li><a href="../Admin/BaiDangAD.aspx">BÀI ĐĂNG</a></li>                       
+                        <li><a href="../Admin/DonHangAD.aspx">ĐƠN HÀNG</a></li>
+                        <li><a href="../Admin/SanPhamAD.aspx">SẢN PHẨM</a></li>
+                        <li><a href="../Admin/ThongKe.aspx">THỐNG KÊ</a></li>
+                        <li><a href="../Login_D_Ki/LoGin.aspx"><img src="../images/iconfinder_sign-out_298869.png" style="width:45px ; margin-right: 100px"/></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="footer">
+                ĐỒ ÁN CHUYÊN NGÀNH
+            </div>
+        </div>
+    </form>
+</body>
+</html>

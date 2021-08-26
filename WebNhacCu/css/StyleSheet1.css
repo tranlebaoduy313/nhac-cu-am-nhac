@@ -1,0 +1,158 @@
+﻿
+.width100, table {
+    width: 100%;
+}
+
+.container1 {
+    width: 100%;
+}
+
+.cagegoryhome {
+    width: 88%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content1 {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.title_home {
+    padding-right: 80px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+    color: #231f20;
+    font-family: Roboto-Medium;
+    line-height: 20px;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    border-bottom: 1px dashed #221f1f;
+    text-transform: uppercase;
+}
+
+.width100 {
+    width: 100%;
+    background-color: white;
+}
+
+.container1 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bottom {
+    width: 88%;
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    #bottom a {
+        width: 358px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+        #bottom a:hover {
+            color: blue;
+            width: 358px;
+        }
+
+    #bottom p {
+        font-size: 14px;
+        width: 358px;
+    }
+
+#left {
+    width: auto;
+    background: #e6e7e8;
+    height: auto;
+}
+
+#right {
+    width: auto;
+    background: #e6e7e8;
+}
+
+#center {
+    width: auto;
+    background-color: #e6e7e8;
+}
+
+a:hover {
+    color: red;
+    font-style: normal;
+}
+
+#left a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tit_height {
+    background-color: #e6e7e8;
+}
+
+.title {
+    width: 358px;
+    margin-top: auto;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.instrumental-item {
+    display: inline-block;
+}
+
+#LinkButton1:hover {
+    font-family: Cambria;
+    font-size: 25px;
+}
+
+.name {
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    background-color: #565555;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+}
+
+    .image:hover {
+        transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transition-duration: 0.7s;
+        transition-timing-function: ease-in-out;
+    }
+
+.tit {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+}

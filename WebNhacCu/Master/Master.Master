@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WebNhacCu.Master.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="masterCSS.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+            <!--Phan menu tren-->
+            <div class="menu">
+                <!--Home-->
+                <div class="left">
+                    <a href="../KhachHang/TrangChu.aspx"><img src="../images/home.png" style="height:50px"/></a>
+                </div>
+                
+                <!--Menu-->
+                <div class="menu_center">
+                    <ul id="navigation">
+                        <li><a href="../KhachHang/GioiThieu.aspx">GIỚI THIỆU</a></li>
+                        <li><a href="../KhachHang/SanPham.aspx">SẢN PHẨM</a></li>                       
+                        <li><a href="../KhachHang/TinTuc.aspx">TIN TỨC</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                        <li><a href="../Login_D_Ki/LoGin.aspx"><img src="../images/login.png" style="width:45px"/></a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <asp:TextBox ID="TextBox1" runat="server" BorderStyle="None" Height="30px" Width="250px"></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" Text="Tìm Kiếm" BorderStyle="None" BackColor="Black" ForeColor="White" Font-Bold="true" Height="30px" Width="75px" OnClick="Button1_Click" />
+                </div>
+
+            </div>
+            <!--Phan dung chung-->
+            <div class="main">
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+            <!--Phan footer-->
+            <div class="footer">
+                ĐỒ ÁN CHUYÊN NGÀNH
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
+

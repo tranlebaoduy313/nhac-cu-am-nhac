@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ThanhVienMaster.master.cs" Inherits="WebNhacCu.Master.ThanhVienMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSSThanhVienMaster.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+            <div class="menu">
+                <!--Home-->
+                <div class="left">
+                    <a href="../ThanhVien/TrangChuTV.aspx"><img src="../images/home.png" style="height:50px"/></a>
+                </div>
+                
+                <!--Menu-->
+                <div class="menu_center">
+                    <ul id="navigation">
+                        <li><a href="../ThanhVien/GioiThieuTV.aspx">GIỚI THIỆU</a></li>
+                        <li><a href="../ThanhVien/SanPhamTV.aspx">SẢN PHẨM</a></li>                       
+                        <li><a href="../ThanhVien/TinTucTV.aspx">TIN TỨC</a></li>
+                        <li><a href="../ThanhVien/QuanLy.aspx">QUẢN LÝ</a></li>
+                        <li><a href="../ThanhVien/GioHangTV.aspx"><img src="../images/cart.png" style="width:50px"/></a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <asp:TextBox ID="TextBox1" runat="server" BorderStyle="None" Height="30px" Width="250px"></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" Text="Tìm Kiếm" BorderStyle="None" BackColor="Black" ForeColor="White" Font-Bold="true" Height="30px" Width="75px"/>
+                </div>
+                    <a href="../Login_D_Ki/LoGin.aspx" style="margin-right: 100px; float: right"><img src="../images/iconfinder_sign-out_298869.png" style="width:40px"/></a>
+            </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            ĐỒ ÁN CHUYÊN NGÀNH
+        </div>
+        </div>
+    </form>
+</body>
+</html>

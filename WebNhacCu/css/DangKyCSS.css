@@ -1,0 +1,55 @@
+﻿#container {
+    width: 100%;
+    background-image: url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 870px;
+}
+
+.content {
+    width: 45%;
+}
+
+#main {
+    width: 300px;
+    margin: auto;
+    color: white;
+    padding-left: 20px;
+    height: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin-top: 80px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.txt {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: rgba(245, 245, 220, 0);
+    width: 260px;
+    font-size: 18px;
+    
+}
+
+p {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#DangKy {
+    margin-top: 20px;
+    width: 265px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #CC3300;
+    color: white;
+    font-size: 18px;
+    border: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

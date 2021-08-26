@@ -1,0 +1,68 @@
+﻿.content {
+    width: 100%;
+    background-image: url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main {
+    width: 300px;
+    margin: auto;
+    color: white;
+    padding-left: 20px;
+    height: 800px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin-top: 80px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.txt {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: rgba(245, 245, 220, 0);
+    width: 260px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#login {
+    margin-top: 20px;
+    width: 265px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #CC3300;
+    color: white;
+    font-size: 18px;
+    border: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    #login .DangKy {
+        float: left;
+        width: 122px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+.QMK {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 23px;
+    text-align: right;
+}
+
+    .QMK .qmk {
+        color: white;
+    }
